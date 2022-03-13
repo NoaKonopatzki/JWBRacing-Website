@@ -1,8 +1,8 @@
 /* Header */
 
 .navbar {
-    background-color: rgb(95, 33, 153);
-    padding: 20px 100px 20px 100px;
+    background-color: rgb(0, 0, 81);
+    padding: 20px 160px 20px 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
