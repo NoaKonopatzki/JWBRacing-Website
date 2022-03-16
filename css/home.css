@@ -1,0 +1,53 @@
+/* Image Designe Homepage */
+
+.background-img-home {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.header-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sec1 Content Homepage */
+
+
+.section-one {
+    display: flex;
+    align-items: flex-start;
+    gap: 10%;
+    margin: 80px 15%;
+}
+.section-one img{
+    max-width: 40%;
+    height: auto;
+
+}
+
+/* Sec2 Content Homepage */
+
+.section-one div{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+}
+.section-two {
+    background-color: rgb(0, 0, 81);
+    margin: 100px 0px ;
+    padding: 60px 15% 80px 15%;
+}
+.section-two h1{
+    color: rgb(255, 255, 255);
+}
+.section-two h2{
+    color: rgb(255, 255, 255);
+}
+.videos-sec2 {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
