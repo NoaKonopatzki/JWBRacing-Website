@@ -1,7 +1,7 @@
 /* Section 1 */
 
 .img-sec1-home{
-    width: 450px;
+    width: 540px;
     height: auto;
 }
 .sec1-homepage{
@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    font-size: 20px;
 }
 .sec1-homepage h1{
     padding: 10px 0;
@@ -18,17 +19,73 @@
     padding: 0 0 10px 0;
 }
 
-/* Phone Media View */
+/* Section 2 */
 
-@media (max-width: 1260px) {
-    .img-sec1-home{
-        width: 400px;
+.sec2-homepage{
+    background-color: rgb(0, 0, 81);
+    color: rgb(255, 255, 255);
+    padding: 30px 130px;
+}
+.sec2-videos{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    gap: 50px;
+
+}
+.sec2-videos iframe{
+    width: 360px;
+    height: 240px;
+}
+
+/* Media View Laptop */
+
+@media (max-width: 1510px) {
+
+    .homepage-img-big{
+        width: 100%; 
         height: auto;
+    }
+
+    /* Section One */
+
+    .img-sec1-home{
+        max-width: 700px;
+        width: 100%;
     }
     .sec1-homepage{
         display: block;
         justify-content: center;
         align-items: center;
-        border: ;
+        font-size: 18px;
+    }
+
+    
+}
+
+/* Media View Phone */
+
+@media (max-width: 915px){
+    .sec1-homepage{
+        font-size: 12px;
+    }
+
+    /* Section two */
+    .sec2-homepage{
+        padding: 0;
+        margin: 0;
+    }
+    .sec2-titel{
+        padding: 20px 0 0;
+        text-align: center;
+    }
+    .sec2-video{
+        display: block;
+        margin:auto;
+        padding: 20px 0 0;
+    }
+    .sec2-videos-section h2{
+        padding: 20px 0 ;
+        text-align: center;
     }
 }
