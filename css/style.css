@@ -1,0 +1,124 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+main{
+    margin: 80px 50px 0;
+}
+
+/* Header */
+
+.navbar{
+    background-color: rgb(0, 0, 81);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar .img{
+    padding-top: 7px;
+    margin: 5px 50px;
+}
+.navbar-links ul{
+    margin: 5px 50px;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover{
+    text-decoration: overline;
+}
+
+/* Hamburger menu */
+
+.toggle-button {
+    position: absolute;
+    margin: 5px 50px;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar-1, .bar-2, .bar-3{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.toggle-button:active{
+    transform: translateY(5px);
+}
+.toggle-button:hover{
+    opacity: 0.8;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    bottom: 0;
+    padding: 50px 0 ;
+    /*border-top: 5px solid rgb(0, 0, 81);*/
+    color: rgb(0, 0, 0);
+}
+.footer a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.footer a:hover{
+    opacity: 0.8;
+}
+
+/* Phone Media View */
+
+@media (max-width: 580px) {
+    /* Navbar phone */
+
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding: 0.5rem;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+}
