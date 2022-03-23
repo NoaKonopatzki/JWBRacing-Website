@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 main{
-    margin: 80px 50px 0;
+    margin: 60px 0 0;
 }
 
 /* Header */
@@ -82,10 +82,9 @@ main{
     bottom: 0;
     padding: 50px 0 ;
     /*border-top: 5px solid rgb(0, 0, 81);*/
-    color: rgb(0, 0, 0);
 }
 .footer a{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 81);
     text-decoration: none;
 }
 .footer a:hover{
