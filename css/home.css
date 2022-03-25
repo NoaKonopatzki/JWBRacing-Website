@@ -38,6 +38,7 @@
     height: 240px;
 }
 
+
 /* Media View Laptop */
 
 @media (max-width: 1510px) {
@@ -50,7 +51,7 @@
     /* Section One */
 
     .img-sec1-home{
-        max-width: 700px;
+        max-width: 500px;
         width: 100%;
     }
     .sec1-homepage{
@@ -84,8 +85,7 @@
         margin:auto;
         padding: 20px 0 0;
     }
-    .sec2-videos-section h2{
-        padding: 20px 0 ;
-        text-align: center;
+    .sec2-videos-section{
+        padding: 0 0 30px 0;
     }
 }
