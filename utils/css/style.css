@@ -1,0 +1,123 @@
+
+/* @@@@@@@@@@@@@@@@@@@ DEFAULT SETTINGS @@@@@@@@@@@@@@@@@@@ */
+body {
+    font-family: 'OpenSans', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* @@@@@@@@@@@@@@@@@@@ HEADER SETTINGS @@@@@@@@@@@@@@@@@@@ */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000051;
+    height: 70px;
+    padding: 0 200px;
+    top: 0;
+}
+.header .img{
+    padding: 0 20px 0;
+    width: 5px;
+    height: auto;
+}
+.navbar ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    display: block;
+    font-weight: normal;
+}
+.navbar li:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+/* ---- Hamburger menu ---- */
+
+.toggle-button {
+    position: absolute;
+    margin: 5px 50px;
+    top: 15px;
+    right: -10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar-1, .bar-2, .bar-3{
+    height: 4px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.toggle-button:active{
+    transform: translateY(5px);
+}
+.toggle-button:hover{
+    opacity: 0.8;
+}
+@media (max-width: 960px) {
+    /* Navbar phone */
+    .toggle-button {
+        display: flex;
+    }
+    .navbar {
+        display: none;
+        width: 100%;
+    }
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .navbar ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar li{
+        text-align: center;
+        padding: 10px 0;
+        background-color: #000051FF;
+    }
+    .navbar.active{
+        display: flex;
+    }
+}
+
+/* ---- Hamburger menu ---- */
+
+/* @@@@@@@@@@@@@@@@@@@ FOOTER SETTINGS @@@@@@@@@@@@@@@@@@@ */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    bottom: 0;
+    padding: 50px 0 ;
+    /*border-top: 5px solid rgb(0, 0, 81);*/
+}
+.footer a{
+    color: rgb(0, 0, 81);
+    text-decoration: none;
+}
+.footer a:hover{
+    opacity: 0.8;
+}
