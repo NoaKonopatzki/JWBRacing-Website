@@ -1,5 +1,6 @@
 
 /* @@@@@@@@@@@@@@@@@@@ DEFAULT SETTINGS @@@@@@@@@@@@@@@@@@@ */
+
 body {
     font-family: 'OpenSans', sans-serif;
     background-color: #ffffff;
@@ -94,7 +95,7 @@ body {
     .navbar li{
         text-align: center;
         padding: 10px 0;
-        background-color: #000051FF;
+        background-color: #00005a;
     }
     .navbar.active{
         display: flex;

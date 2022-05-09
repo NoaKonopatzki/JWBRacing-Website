@@ -1,55 +1,31 @@
+/* @@@@@@@@@@@@@@@@@@@ IMAGE BIG @@@@@@@@@@@@@@@@@@@ */
 
-/* Media View PC */
-
-@media screen {
-    /* Section 1 */
-
-    .img-sec1-home{
-        width: 540px;
-        height: auto;
-    }
-    .sec1-homepage{
-        margin: 30px 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        font-size: 20px;
-    }
-    .sec1-homepage h1{
-        padding: 10px 0;
-    }
-    .sec1-homepage p{
-        padding: 0 0 10px 0;
-    }
-
-    /* Section 2 */
-
-    .sec2-homepage{
-        text-align: center;
-        background-color: rgb(0, 0, 81);
-        color: rgb(255, 255, 255);
-        padding: 30px 130px;
-    }
-
-    .sec2-video{
-        margin: 10px;
-        width: 360px;
-        height: 240px;
-    }
+.homepage-img-big{
+    width: 100%;
+    height: auto;
 }
 
-/* Media View Laptop */
+/* @@@@@@@@@@@@@@@@@@@ SECTION ONE @@@@@@@@@@@@@@@@@@@ */
 
+.img-sec1-home{
+    width: 540px;
+    height: auto;
+}
+.sec1-homepage{
+    margin: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.sec1-homepage h1{
+    padding: 10px 0;
+}
+.sec1-homepage p{
+    padding: 0 0 10px 0;
+}
 @media (max-width: 1510px) {
-
-    .homepage-img-big{
-        width: 100%; 
-        height: auto;
-    }
-
-    /* Section One */
-
     .img-sec1-home{
         max-width: 500px;
         width: 100%;
@@ -63,18 +39,27 @@
     .sec1-homepage{
         text-align: center;
     }
-
-    
 }
-
-/* Media View Phone */
-
-@media (max-width: 915px){
-    .sec1-homepage{
+@media (max-width: 915px) {
+    .sec1-homepage {
         font-size: 20px;
     }
+}
 
-    /* Section two */
+/* @@@@@@@@@@@@@@@@@@@ SECTION TWO @@@@@@@@@@@@@@@@@@@ */
+
+.sec2-homepage{
+    text-align: center;
+    background-color: rgb(0, 0, 81);
+    color: rgb(255, 255, 255);
+    padding: 30px 130px;
+}
+.sec2-video{
+    margin: 10px;
+    width: 360px;
+    height: 240px;
+}
+@media (max-width: 915px){
     .sec2-homepage{
         padding: 0;
         margin: 0;
@@ -91,4 +76,13 @@
     .sec2-videos-section{
         padding: 0 0 30px 0;
     }
+}
+
+/* @@@@@@@@@@@@@@@@@@@ ENGIN START @@@@@@@@@@@@@@@@@@@ */
+
+.start-engin-button{
+    margin: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
