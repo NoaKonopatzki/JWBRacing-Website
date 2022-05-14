@@ -22,6 +22,7 @@ This README file is for information's and orientation.
 
 - [Overall Style](./utils/css/style.css) - Style of all sites (Header/Footer)
 - [HomePage Style](./utils/css/home.css) - Style of the HomePage sections
+- [Contact Style](./utils/css/contact.css) - Style of the ContactPage sections
 
 ### JS Directory
 
