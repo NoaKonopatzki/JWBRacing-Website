@@ -1,0 +1,28 @@
+/* @@@@@@@@@@@@@@@@@@@ SECTION ONE @@@@@@@@@@@@@@@@@@@ */
+
+.sec1-header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 50px 0 0 0;
+}
+.sec1-subtitel h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 15px;
+}
+
+/* @@@@@@@@@@@@@@@@@@@ SECTION TWO @@@@@@@@@@@@@@@@@@@ */
+
+.sec2-data p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-size: 18px;
+}
